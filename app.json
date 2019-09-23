@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "CBIM-Authenticator",
+    "slug": "CBIM-Authenticator",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.6",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/cbim_authenticator_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cbim.cbim"
+    },
+    "android": {
+      "package": "com.cbim.authenticator",
+      "versionCode": 2,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.cbim.authenticator"
+    }
+  }
+}
